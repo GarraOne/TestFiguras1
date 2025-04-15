@@ -11,7 +11,7 @@ public class TestTriangulo {
         double retornoEsperado = 0;
         //Instancia um objeto da classe Triangulo
         Triangulo triangulo = new Triangulo();
-            //Chama a operacao getArea()
+        //Chama a operacao getArea()
         double retornoFeito = triangulo.getArea();
         //Premissa verifica se os valores são iguais
         assertEquals(retornoEsperado, retornoFeito, 0);
@@ -25,7 +25,7 @@ public class TestTriangulo {
         double retornoEsperado = 3;
         //Instancia um objeto da classe Triangulo
         Triangulo triangulo = new Triangulo(base, altura);
-            //Chama a operacao getArea()
+        //Chama a operacao getArea()
         double retornoFeito = triangulo.getArea();
         //Premissa verifica se os valores são iguais
         assertEquals(retornoEsperado, retornoFeito, 0);
